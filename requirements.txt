@@ -1,0 +1,13 @@
+# Qwen1.5
+transformers>=4.37.0
+accelerate
+tiktoken
+einops
+transformers_stream_generator==0.0.4
+scipy
+
+# vllm 0.3.0 with cu118 + cp310
+https://github.com/vllm-project/vllm/releases/download/v0.3.0/vllm-0.3.0+cu118-cp310-cp310-manylinux1_x86_64.whl
+--index-url https://download.pytorch.org/whl/cu118
+torch==2.1.2
+xformers==0.0.23.post1
